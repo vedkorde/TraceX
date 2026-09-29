@@ -1,0 +1,22 @@
+{
+  "name": "tracex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+     "start": "fabric-chaincode-node start",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "fabric-contract-api": "^2.5.8",
+    "fabric-shim": "^2.5.8"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "~5.8"
+  }
+}
