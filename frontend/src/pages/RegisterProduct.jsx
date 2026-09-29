@@ -26,10 +26,7 @@ export default function RegisterProduct({ notify }) {
     }
     setLoading(true);
     try {
-      const result = await registerProduct({
-  ...product,
-  productId: product.id,
-});
+      const result = await registerProduct({ ...product, productId: product.id });
       setCreated(result);
       notify({ title: "Product registered", message: `${result.id} is now recorded as REGISTERED.` });
     } catch (error) {

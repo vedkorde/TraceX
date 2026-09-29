@@ -20,7 +20,7 @@ export default function Topbar() {
         <p>{data[1]}</p>
       </div>
       <div className="top-actions">
-        <div className="secure-chip"><span>●</span> Demo environment</div>
+        <div className="secure-chip"><span>●</span> Prototype</div>
         <div className="user-mini">{role?.[0] || "G"}</div>
       </div>
     </header>

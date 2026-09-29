@@ -24,13 +24,13 @@ export default function Sidebar() {
       <div className="network-status">
         <span className="pulse-dot" />
         <div>
-          <strong>Prototype Network</strong>
-          <small>Ledger ready</small>
+          <strong>TraceX workspace</strong>
+          <small>Prototype</small>
         </div>
       </div>
 
       <nav className="side-nav">
-        <div className="nav-label">WORKSPACE</div>
+        <div className="nav-label">OPERATIONS</div>
         {links.map((link) => (
           <NavLink key={link.to} to={link.to} className={({ isActive }) => `nav-item ${isActive ? "active" : ""}`}>
             <span className="nav-icon">{link.icon}</span>
@@ -52,7 +52,7 @@ export default function Sidebar() {
           </div>
           <button className="icon-btn" onClick={() => navigate("/login")} title="Change role">↗</button>
         </div>
-        <button className="reset-btn" onClick={resetDemo}>Reset demo data</button>
+        <button className="reset-btn" onClick={resetDemo}>Reset local demo</button>
       </div>
     </aside>
   );

@@ -23,21 +23,21 @@ export default function Login() {
         <div className="hero-orbit orbit-one" />
         <div className="hero-orbit orbit-two" />
         <div className="login-logo"><span>TX</span></div>
-        <div className="eyebrow">DECENTRALIZED TRACEABILITY</div>
-        <h2>Every product.<br /><span>One trusted journey.</span></h2>
-        <p>TraceX creates a verifiable digital identity and records each custody transition across the supply chain.</p>
+        <div className="eyebrow">SUPPLY CHAIN WORKSPACE</div>
+        <h2>Track every product.<br /><span>From origin to handover.</span></h2>
+        <p>TraceX keeps product records, handovers and verification in one place.</p>
         <div className="hero-stat-row">
-          <div><strong>01</strong><span>IDENTITY</span></div>
-          <div><strong>02</strong><span>TRANSFER</span></div>
+          <div><strong>01</strong><span>REGISTER</span></div>
+          <div><strong>02</strong><span>MOVE</span></div>
           <div><strong>03</strong><span>VERIFY</span></div>
         </div>
       </div>
 
       <div className="login-panel">
         <div className="login-panel-inner">
-          <div className="eyebrow">ACCESS WORKSPACE</div>
-          <h1>Choose your role</h1>
-          <p className="muted">Select a participant to enter the TraceX prototype.</p>
+          <div className="eyebrow">TRACE-X WORKSPACE</div>
+          <h1>Select your role</h1>
+          <p className="muted">Choose the role you want to work with.</p>
 
           <div className="role-grid">
             {roles.map((item) => (
@@ -51,7 +51,7 @@ export default function Login() {
 
           <div className="login-note">
             <span>i</span>
-            <p>This MVP uses role selection instead of production authentication. The interface is ready for a real auth layer later.</p>
+            <p>Prototype access only. Production authentication can be added later.</p>
           </div>
         </div>
       </div>
